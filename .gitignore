@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+*.pth
+*.pt
+.vscode
+# Data and outputs
+data/
+outputs/
+

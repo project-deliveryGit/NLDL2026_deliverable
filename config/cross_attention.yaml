@@ -1,0 +1,35 @@
+data:
+  phantom_root: "data/labeled"
+  test_case: "US-Acq_8"
+  val_split: 0.30
+  split_seed: 42
+  img_size: 512
+
+model:
+  encoder_name: "resnet18"
+  encoder_weights: "imagenet"
+  in_channels: 3
+  classes: 1
+
+training:
+  batch_size: 6
+  max_epochs: 50
+  patience: 10
+  learning_rate: 5e-5
+  num_workers: 0
+  aug_horizontal_flip: 0.80
+  aug_rotation: 15
+  aug_brightness: 0.25
+  aug_contrast: 0.35
+  attention_heads: 4
+  attention_downsample: 4
+
+grid:
+  attention_layers:
+    - [2]
+    - [3]
+    - [4]
+    - [2, 3]
+    - [3, 4]
+    - [2, 4]
+    - [2, 3, 4]
