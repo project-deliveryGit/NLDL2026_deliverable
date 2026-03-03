@@ -1,6 +1,6 @@
 # Domain Adaptation for Phantom Ultrasound Vessel Segmentation
 
-Anonymous submission — NLDL 2026 Winter School Project
+Anonymous submission - NLDL 2026 Winter School Project
 
 This repository contains code for adapting a U-Net segmentation model trained on real patient 
 laparoscopic ultrasound to phantom ultrasound recordings. Three domain adaptation strategies 
@@ -13,7 +13,7 @@ shared in this repository.
 
 This project was conducted as part of the NLDL 2026 Winter School. The cross-attention approach 
 was implemented following methods presented in one of the school's tutorials. Fine-tuning and 
-LoRA adaptations were inspired adapted based on prior machine learning coursework at the authors' institution.
+LoRA adaptations were inspired based on prior machine learning coursework at the authors' institution.
 
 ---
 
